@@ -57,9 +57,8 @@ $noe: 'NoeDisplay-Bold', serif;
 // Import partials.
 @import
   "base",
-  "pages/index",
-  "pages/home",
   "pages/journal",
+  "pages/article",
   "modules/webfonts",
   "modules/navigation",
   "modules/footer",
