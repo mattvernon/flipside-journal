@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="10px" viewBox="0 0 16 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>down-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Ticket-Selection-Modal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1040.000000, -395.000000)">
+        <g id="Group-2" transform="translate(313.000000, 318.000000)" fill="#322B5E" fill-rule="nonzero">
+            <g id="Group" transform="translate(625.128906, 51.000000)">
+                <polygon id="down-arrow" points="110 35.6 102.3 27.9 103.7 26.4 110 32.7 116.3 26.4 117.7 27.9"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

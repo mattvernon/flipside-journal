@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body>
+    <header id="checkout-mainnav">
+      <a href="home.html" class="header--logo">
+        <img src="assets/images/icons/logo.svg">
+      </a>
+    </header>
+    {{ content }}
+
+  {% include footer_slim.html %}
+  <script src="https://js.stripe.com/v3/"></script>
+  <script src="assets/js/app.js"></script>
+  </body>
+
+</html>

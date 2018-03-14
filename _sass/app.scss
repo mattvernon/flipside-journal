@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+
+// Variables =======================================================
+
+// Colours
+$white: white;
+$grey1: #FBFBFB;
+$grey2: #F5F5F5;
+$grey3: #DBDBDB;
+$grey4: #EBEBEB;
+$grey5: #6C6C6C;
+
+
+// old colours
+$nude1: #FFFAF9;
+$nude2: #FFF2F1;
+$nude3: #FFEAE7;
+$nude4: #F2D7D3;
+$nude5: #DCBDBA;
+$navy: #181C52;
+$navy2: #241E47;
+$yellow: #FFDD64;
+$yellow2: #F7D250;
+$coral: #F7AFA5;
+
+
+// Typefaces
+
+$mono: 'Campton-Medium', sans-serif;
+$camp-semi: 'Campton-SemiBold', sans-serif;
+$camp-med: 'Campton-Medium', sans-serif;
+$camp-book: 'Campton-Book', sans-serif;
+$noe: 'NoeDisplay-Bold', serif;
+
+// Media Queries
+
+@mixin small {
+  @media (max-width: 680px) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media (max-width: 1150px) {
+    @content;
+  }
+}
+
+
+@mixin large {
+  @media (min-width: 1151px) {
+    @content;
+  }
+}
+
+// Import partials.
+@import
+  "base",
+  "pages/index",
+  "pages/home",
+  "pages/journal",
+  "modules/webfonts",
+  "modules/navigation",
+  "modules/footer",
+  "modules/hero",
+  "modules/buttons",
+  "modules/inputs",
+  "modules/searchbar",
+  "modules/iconrow",
+  "modules/event-cards",
+  "modules/modals",
+  "modules/sharewidget",
+  "modules/content-block"
+;

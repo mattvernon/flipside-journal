@@ -1,0 +1,21 @@
+.hero {
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 30px;
+
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-family: $camp-semi;
+    font-size: 24px;
+    margin-top: 40px;
+  }
+
+  p {
+    max-width: 400px;
+    line-height: 24px;
+    margin: 0 auto 30px auto;
+  }
+}

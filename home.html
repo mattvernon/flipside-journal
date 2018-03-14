@@ -1,0 +1,91 @@
+---
+layout: default
+---
+
+
+
+<section class="home--hero">
+  <div class="wrapper">
+    <h1>Come and experience a different night out at a local bar or restaurant!</h1>
+    <h2>We're combining cocktails and creativity to bring out the artist in everyone!</h2>
+    {% include searchbar.html %}
+  </div>
+</section>
+
+
+
+<div class="siema slider home--slider">
+  <div style="background-image:url('assets/images/banners/image_1.jpg');"></div>
+  <div style="background-image:url('assets/images/banners/image_2.jpg');"></div>
+  <div style="background-image:url('assets/images/banners/image_3.jpg');"></div>
+  <div style="background-image:url('assets/images/banners/image_4.jpg');"></div>
+</div>
+
+
+<div class="wrapper">
+
+  <section class="icon-row">
+    <div class="icon-block">
+      <img src="assets/images/icons/flare.svg">
+      <h4>Flaunt your creative flare</h4>
+      <p>Let your hair down, imagination run free and unlock your inner creative artist!</p>
+    </div>
+    <div class="icon-block">
+      <img src="assets/images/icons/wine.svg">
+      <h4>The power of kindling connections</h4>
+      <p>We believe that you deserve an unforgettable night, with your favourite drink and friends by your side, old and new</p>
+    </div>
+    <div class="icon-block">
+      <img src="assets/images/icons/learn.svg">
+      <h4>Inspire and learn</h4>
+      <p>More than just a creative space, find your sanctuary and empower yourself learning something new</p>
+    </div>
+  </section>
+
+  <section class="upcoming-events">
+    <div class="events-header">
+      <h6 class="tiny-heading">Upcoming Events</h6>
+      <div class="location-filter">
+        <small>Filter</small>
+        <select>
+          <option>Sydney</option>
+          <option>Melbourne</option>
+          <option>Canberra</option>
+          <option>Brisbane</option>
+          <option>Adelaide</option>
+          <option>Perth</option>
+        </select>
+      </div>
+    </div>
+    <div class="events-grid">
+      {% include eventcard--standard.html %}
+      {% include eventcard--soldout.html %}
+      {% include eventcard--sellingfast.html %}
+      {% include eventcard--standard.html %}
+      {% include eventcard--standard.html %}
+      {% include eventcard--standard.html %}
+    </div>
+    <div class="events--viewall">
+      <a href="events.html" class="button nude">View all events</a>
+    </div>
+  </section>
+
+</div>
+
+<section class="ethos-cta">
+  <div>
+    <h2>Share a <span>drink,</span> share <span>creativity,</span> share <span>ideas,</span> share an <span>unforgettable night.</span></h2>
+  </div>
+</section>
+
+{% include footer.html %}
+
+<script src="assets/js/siema.min.js"></script>
+<script>
+const mySiema = new Siema ({
+  loop: true,
+  duration: 1000
+});
+
+setInterval(() => mySiema.next(), 5000)
+</script>

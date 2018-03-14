@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>clock</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Event-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-870.000000, -611.000000)">
+        <g id="Group-3" transform="translate(868.000000, 367.875000)" fill="#E78181" fill-rule="nonzero">
+            <g id="Group-2-Copy" transform="translate(2.000000, 242.000000)">
+                <g id="clock" transform="translate(0.000000, 1.125000)">
+                    <path d="M8,0 C3.6,0 0,3.6 0,8 C0,12.4 3.6,16 8,16 C12.4,16 16,12.4 16,8 C16,3.6 12.4,0 8,0 Z M8,14 C4.7,14 2,11.3 2,8 C2,4.7 4.7,2 8,2 C11.3,2 14,4.7 14,8 C14,11.3 11.3,14 8,14 Z" id="Shape"></path>
+                    <polygon id="Shape" points="9 4 7 4 7 9 12 9 12 7 9 7"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

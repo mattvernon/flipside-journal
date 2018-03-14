@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="63px" height="57px" viewBox="0 0 63 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>customers</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Become-a-Venue" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-598.000000, -770.000000)" stroke-linecap="square">
+        <g id="customers" transform="translate(599.432129, 771.640625)" stroke="#1B3C6B" stroke-width="2">
+            <polygon id="Shape" points="32 0 32 26 42 18 60 18 60 0"></polygon>
+            <circle id="Oval" cx="16" cy="24" r="8"></circle>
+            <path d="M32,54 L0,54 L0,45.662 C0,43.205 1.478,40.972 3.771,40.088 C6.435,39.059 10.511,38 16,38 C21.489,38 25.565,39.059 28.229,40.087 C30.522,40.972 32,43.204 32,45.662 L32,54 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

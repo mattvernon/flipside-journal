@@ -1,0 +1,64 @@
+.searchbar {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 80px 0;
+
+  @include medium {
+    margin: 40px 0;
+  }
+
+  @include medium {
+    flex-direction: column;
+  }
+
+
+  div {
+    margin-right: 5px;
+  }
+
+}
+
+.searchbar--location {
+  flex: 2;
+
+  @include medium {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  input {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+.searchbar--date {
+  display: flex;
+  flex: 1;
+
+  input {
+    width: 50%;
+  }
+
+  @include medium {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+.date-picker-left {
+  border-radius: 4px 0 0 4px;
+}
+
+.searchbar--tickets {
+  width: 100px;
+  flex: 1;
+
+  @include medium {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}

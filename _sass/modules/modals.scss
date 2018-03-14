@@ -1,0 +1,211 @@
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  background-color: $navy;
+  opacity: 0.8;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#modal-close {
+  position: fixed;
+  top: 60px;
+  right: 60px;
+
+  @include medium {
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+#circle {
+  transition: 0.2s;
+}
+
+#circle:hover {
+  fill: $navy2;
+  cursor: pointer;
+}
+
+.modal {
+  width: 90%;
+  max-width: 800px;
+  background-color: $grey2;
+  position: relative;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+
+  @include small {
+    height: auto;
+    max-height: 80vh;
+  }
+}
+
+.modal--header {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+
+  padding: 8px 25px;
+  border-bottom: 1px solid $grey4;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  @include small {
+    padding: 10px 20px;
+  }
+
+  h2 {
+    font-family: $camp-semi;
+    font-size: 24px;
+    letter-spacing: -0.5px;
+
+    @include small {
+      font-size: 18px;
+    }
+  }
+
+  .tickets-left {
+    background-color: $grey2;
+    padding: 15px 30px;
+    border-radius: 100px;
+    margin: 0;
+
+    @include small {
+      font-size: 14px;
+      padding: 6px 12px;
+    }
+  }
+}
+
+.modal--footer {
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 25px 20px 30px;
+  border-top: 1px solid $grey4;
+
+  @include small {
+    padding: 10px 10px 10px 20px;
+  }
+
+  p {
+    font-size: 24px;
+
+    @include small {
+      font-size: 16px;
+      width: 50%;
+      margin: 0;
+    }
+  }
+}
+
+.ticket-container {
+  padding: 110px 30px 130px 30px;
+  overflow: scroll;
+
+  @include small {
+    padding: 80px 10px;
+    height: auto;
+    max-height: 80vh;
+  }
+
+  .group-special {
+    background-color: white;
+    color: $navy;
+    padding: 10px 20px;
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid $grey4;
+
+    @include small {
+      margin: 0 0 15px 0;
+    }
+  }
+
+
+}
+
+.ticket-option {
+  background-color: white;
+  border-radius: 4px;
+  padding: 40px 40px;
+  border: 1px solid $grey4;
+  margin-bottom: 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @include small {
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    margin-top: 0;
+    font-family: $camp-semi;
+    font-size: 24px;
+    margin-bottom: 10px;
+
+    @include small {
+      font-size: 18px;
+    }
+  }
+
+  p {
+    font-size: $camp-med;
+    font-size: 24px;
+    margin: 0;
+
+    @include small {
+      font-size: 14px;
+    }
+  }
+
+  select {
+    @include small {
+      min-width: 88px;
+    }
+  }
+}
+
+.ticket--detail {
+  padding-right: 60px;
+
+  @include small {
+    padding-right: 10px;
+  }
+}
+
+.ticket--qty {
+  display: flex;
+  align-items: center;
+
+  p {
+    font-size: 16px;
+    margin-right: 20px;
+  }
+
+  select {
+
+  }
+}

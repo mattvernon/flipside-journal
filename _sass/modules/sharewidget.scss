@@ -1,0 +1,32 @@
+.share-widget-container {
+  position: absolute;
+  height: 100%;
+  left: -120px;
+}
+
+.share-widget {
+  position: sticky;
+  top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+    a {
+      margin-bottom: 10px;
+    }
+  }
+
+  span {
+    font-family: $mono;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+    transform: rotate(270deg);
+  }
+}
