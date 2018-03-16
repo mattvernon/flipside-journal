@@ -27,6 +27,36 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 
+  _postcollections:
+  category:
+    title: Category
+    output: true
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: "/blog/:title/"
+    Main Image:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+- scope:
+    path: ''
+    type: category
+  values:
+    layout: category
+permalink: pretty
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
