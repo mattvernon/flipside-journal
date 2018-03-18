@@ -15,8 +15,8 @@ defaults:
   values:
     layout: post
     permalink: "/blog/:title/"
-    Main Image: 
-    Description: 
+    Main Image:
+    description:
 - scope:
     path: ''
     type: pages
@@ -31,8 +31,7 @@ email: your-email@example.com
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
   results) and in your feed.xml site description.
-baseurl: "/flipside"
-url: 
+url:
 markdown: kramdown
 _postcollections:
   category:
