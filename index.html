@@ -26,6 +26,33 @@ layout: default
 <section class="latest-posts">
   <div class="wrapper">
     <p>Latest Posts</p>
+
+    <div class="card-feed">
+      {% for post in site.posts %}
+
+        <a href="{{ post.url | remove: ".html" }}" class="small-article">
+            <div class="small-article-img" style="background-image: url({{ post['Main Image'] }});"></div>
+            <!-- <img src="{{ posts['Main Image'] }}" class="small-article-img"> -->
+            <div class="small-article-details">
+              <small>{{ post.categories.first }}</small>
+              <h4 class="small-article-title">{{ post.title }}</h4>
+            </div>
+        </a>
+
+        <a href="{{ post.url | remove: ".html" }}" class="article-card">
+          <div class="card-image" style="background-image: url({{ post['Main Image'] }})"></div>
+          <div class="card-detail">
+            <div class="card-main">
+              <h2>{{ post.title }}</h2>
+              <p>{{ post.Description }}</p>
+            </div>
+            <p>Published on 2nd May 2018</p>
+          </div>
+        </a>
+
+      {% endfor %}
+    </div>
+
     <div class="card-feed">
 
       <a href="article.html" class="article-card">
