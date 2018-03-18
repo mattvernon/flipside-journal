@@ -15,7 +15,7 @@ defaults:
   values:
     layout: post
     permalink: "/:title/"
-    Main Image:
+    Main Image: 
     description:
 - scope:
     path: ''
